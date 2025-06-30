@@ -27,12 +27,12 @@ Follow these steps to set up and run the project locally:
 **1. Clone the repository (if applicable) or navigate to your project folder:**
 
 ```
- If you're starting from scratch in a new folder
-mkdir my-express-app
-cd my-express-app
+ # If you're starting from scratch in a new folder
+   mkdir my-express-app
+   cd my-express-app
 
   # If you have an existing repo, navigate to it
-cd path/to/your/repo
+   cd path/to/your/repo
 ```
 
 **2. Initialize a new Node.js project:**
@@ -46,34 +46,34 @@ This installs Express.js and dotenv (for environment variables).
 npm install express dotenv
 ```
 
-Environment Variables
+# Environment Variables
 This project uses environment variables for sensitive information like the API key.
 
-Create a .env file:
+**1.Create a .env file:**
 In the root of your project directory, create a new file named .env.
 
-Copy variables from .env.example:
+**2.Copy variables from .env.example:**
 Open the .env.example file (provided in the project) and copy its contents into your newly created .env file.
-
 # .env.example (contents to copy)
 API_KEY=mysecretapikey123
 
-Set your API Key:
+**3.Set your API Key:**
 In your .env file, replace mysecretapikey123 with a strong, unique secret key of your choice. Do not share your .env file or commit it to version control.
-
+```
 # .env (example with your actual key)
 API_KEY=your_very_secret_api_key_here
+```
 
-Running the Server
+# Running the Server
 Once installed and configured, you can start the Express.js server:
 
-Start the server:
-
+**1.Start the server:**
+```
 node index.js
-
-Verify:
+```
+**2.Verify:**
 You should see output in your terminal indicating that the server is listening on port 3000:
-
+```
 Express server listening at http://localhost:3000
 
 --- API Endpoints Available ---
@@ -86,7 +86,7 @@ Express server listening at http://localhost:3000
   DELETE http://localhost:3000/api/products/:id    (requires API Key)
 
 --- Test with API Key: mysecretapikey123 ---
-
+```
 The API will be accessible at http://localhost:3000.
 
 API Endpoints Documentation
