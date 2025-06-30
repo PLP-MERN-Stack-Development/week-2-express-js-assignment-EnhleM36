@@ -6,13 +6,3 @@ node_modules/
 # Environment variables
 .env
 
-# Logs
-.# .gitignore
-
-# Node modules
-node_modules/
-
-# Environment variables
-.env
-
-
