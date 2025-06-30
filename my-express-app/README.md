@@ -40,7 +40,7 @@ This creates the package.json file.
 ```
 npm init -y
 ```
-**3.Install project dependencies:**
+**3. Install project dependencies:**
 This installs Express.js and dotenv (for environment variables).
 ```
 npm install express body-parser uuid dotenv
@@ -71,11 +71,11 @@ API_KEY=your_very_secret_api_key_here
 # Running the Server
 Once installed and configured, you can start the Express.js server:
 
-**1.Start the server:**
+**1. Start the server:**
 ```
 node index.js
 ```
-**2.Verify:**
+**2. Verify:**
 You should see output in your terminal indicating that the server is listening on port 3000:
 ```
 Express server listening at http://localhost:3000
