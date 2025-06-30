@@ -1,4 +1,4 @@
-## Express.js Product API
+# Express.js Product API
 This is a simple RESTful API built with Express.js for managing product data. It demonstrates core backend concepts including routing, middleware, error handling, filtering, pagination, searching, and basic statistics.
 
 # Features
@@ -17,31 +17,34 @@ This is a simple RESTful API built with Express.js for managing product data. It
 
 # Prerequisites
 Before you begin, ensure you have the following installed on your system:
-Node.js: (LTS version recommended)
-Download Node.js
-npm: (Node Package Manager, comes with Node.js)
+- **Node.js**: (LTS version recommended)
+   - Download Node.js
+- **npm**: (Node Package Manager, comes with Node.js)
 
 # Installation
 Follow these steps to set up and run the project locally:
 
-Clone the repository (if applicable) or navigate to your project folder:
+**1. Clone the repository (if applicable) or navigate to your project folder:**
 
-'''  If you're starting from scratch in a new folder
+```
+ If you're starting from scratch in a new folder
 mkdir my-express-app
 cd my-express-app
 
   # If you have an existing repo, navigate to it
-cd path/to/your/repo '''
+cd path/to/your/repo
+```
 
-Initialize a new Node.js project:
+**2. Initialize a new Node.js project:**
 This creates the package.json file.
-
+```
 npm init -y
-
-Install project dependencies:
+```
+**3.Install project dependencies:**
 This installs Express.js and dotenv (for environment variables).
-
+```
 npm install express dotenv
+```
 
 Environment Variables
 This project uses environment variables for sensitive information like the API key.
