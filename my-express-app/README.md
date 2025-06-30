@@ -43,19 +43,23 @@ npm init -y
 **3.Install project dependencies:**
 This installs Express.js and dotenv (for environment variables).
 ```
-npm install express dotenv
+npm install express body-parser uuid dotenv
+
 ```
 
 # Environment Variables
 This project uses environment variables for sensitive information like the API key.
 
-**1.Create a .env file:**
+**1 .Create a .env file:**
 In the root of your project directory, create a new file named .env.
 
 **2.Copy variables from .env.example:**
 Open the .env.example file (provided in the project) and copy its contents into your newly created .env file.
+
+```
 # .env.example (contents to copy)
 API_KEY=mysecretapikey123
+```
 
 **3.Set your API Key:**
 In your .env file, replace mysecretapikey123 with a strong, unique secret key of your choice. Do not share your .env file or commit it to version control.
